@@ -386,4 +386,7 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Library Include="minhook\minhook.lib" />
+  </ItemGroup>
 </Project>

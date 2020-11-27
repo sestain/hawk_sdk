@@ -137,6 +137,9 @@
     <ClInclude Include="utils\vfunc.hpp" />
     <ClInclude Include="menu\variables.hpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Library Include="minhook\minhook.lib" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{F9CBFBFA-2801-4150-84E2-660CF4BC610A}</ProjectGuid>
