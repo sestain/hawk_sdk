@@ -39,7 +39,7 @@ void init(HMODULE mod) {
 }
 
 int __stdcall DllMain(HINSTANCE inst, std::uint32_t reason, void* reserved) {
-	if (reason == 1)
+	if (reason == DLL_PROCESS_ATTACH)
 		CreateThread(nullptr, 0, LPTHREAD_START_ROUTINE(init), HMODULE(inst), 0, nullptr);
 
 	if (reason == DLL_PROCESS_DETACH)
